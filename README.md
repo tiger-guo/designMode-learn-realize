@@ -18,4 +18,5 @@
             - loader：被代理的类的类加载器
             - interfaces：被代理类的接口数组
             - invocationHandler：就是实现了InvocationHandler的处理器类
-        
+    ② CGLIB方法
+        CGLIB方法实现比较简单，仅需要实现 MethodInterceptor 接口，传入代理对象即可。 
