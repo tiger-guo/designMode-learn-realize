@@ -1,5 +1,8 @@
-package com.designMode.realize.proxyMode.dynamicProxy;
+package com.designMode.realize.proxyMode.dynamicProxy.JDK;
 
+import com.designMode.realize.proxyMode.dynamicProxy.JDK.Apple;
+import com.designMode.realize.proxyMode.dynamicProxy.JDK.DynamicAgent;
+import com.designMode.realize.proxyMode.dynamicProxy.JDK.Fruit;
 import org.junit.Test;
 
 import java.lang.reflect.InvocationTargetException;

@@ -1,4 +1,4 @@
-package com.designMode.realize.proxyMode.dynamicProxy;
+package com.designMode.realize.proxyMode.dynamicProxy.JDK;
 
 /**
  * @program: designMode-learn&realize

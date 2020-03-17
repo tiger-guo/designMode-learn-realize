@@ -1,4 +1,4 @@
-package com.designMode.realize.proxyMode.dynamicProxy;
+package com.designMode.realize.proxyMode.dynamicProxy.JDK;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
