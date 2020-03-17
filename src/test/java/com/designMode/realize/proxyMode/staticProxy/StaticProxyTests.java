@@ -14,7 +14,7 @@ public class StaticProxyTests {
     @Test
     public void test() {
         Man man = new Man("I am static proxy man!");
-        Agent agent = new Agent(man, "before", "after");
+        StaticAgent agent = new StaticAgent(man, "before", "after");
         agent.speak();
     }
 }

@@ -7,13 +7,13 @@ package com.designMode.realize.proxyMode.staticProxy;
  * @create: 2020-03-17 17:36
  **/
 
-public class Agent implements Person {
+public class StaticAgent implements Person {
 
     private Man man;
     private String before;
     private String after;
 
-    public Agent(Man man, String before, String after) {
+    public StaticAgent(Man man, String before, String after) {
         this.man = man;
         this.before = before;
         this.after = after;
