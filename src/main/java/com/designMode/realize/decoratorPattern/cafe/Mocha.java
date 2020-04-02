@@ -1,27 +1,27 @@
-package com.designMode.realize.DecoratorPattern.cafe;
+package com.designMode.realize.decoratorPattern.cafe;
 
 /**
  * @program: designMode-learn&realize
  * @description:
  * @author: liuguohu
- * @create: 2020-03-30 11:45
+ * @create: 2020-03-30 11:44
  **/
 
-public class Milk extends CondimentDecorator {
+public class Mocha extends CondimentDecorator {
 
     Beverage beverage;
 
-    public Milk(Beverage beverage) {
+    public Mocha(Beverage beverage) {
         this.beverage = beverage;
     }
 
     @Override
     public String getDescription() {
-        return beverage.getDescription() + ". Milk";
+        return beverage.getDescription() + ". Mocha";
     }
 
     @Override
     public double cost() {
-        return .3 + beverage.cost();
+        return .2 + beverage.cost();
     }
 }

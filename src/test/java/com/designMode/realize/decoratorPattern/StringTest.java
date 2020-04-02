@@ -1,6 +1,6 @@
 package com.designMode.realize.decoratorPattern;
 
-import com.designMode.realize.DecoratorPattern.stringModel.LowerCaseInputStream;
+import com.designMode.realize.decoratorPattern.stringModel.LowerCaseInputStream;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;

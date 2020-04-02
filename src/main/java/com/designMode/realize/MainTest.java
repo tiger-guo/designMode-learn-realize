@@ -1,9 +1,5 @@
 package com.designMode.realize;
 
-import com.designMode.realize.DecoratorPattern.stringModel.LowerCaseInputStream;
-
-import java.io.*;
-
 /**
  * @program: designMode-learn&realize
  * @description:

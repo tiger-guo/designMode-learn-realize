@@ -1,4 +1,4 @@
-package com.designMode.realize.DecoratorPattern.cafe;
+package com.designMode.realize.decoratorPattern.cafe;
 
 /**
  * @program: designMode-learn&realize
